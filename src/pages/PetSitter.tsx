@@ -59,7 +59,7 @@ export function PetSitter() {
         <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <Dog className="h-8 w-8 text-amber-500" />
-            <h1 className="text-2xl font-bold text-gray-900">PetCare Connect</h1>
+            <h1 className="text-2xl font-bold text-gray-900">Pet Sitter Connect</h1>
           </div>
         </div>
       </header>

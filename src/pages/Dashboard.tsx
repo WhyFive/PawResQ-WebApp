@@ -51,7 +51,7 @@ export function Dashboard() {
     },
     {
       icon: Dog,
-      label: "Pet sitter",
+      label: "Pet Sitter",
       path: "/pet-sitter",
       color: "text-amber-500",
       bgColor: "bg-amber-50",
@@ -78,7 +78,7 @@ export function Dashboard() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+        <div className="my-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
           {menuItems.map((item, index) => (
             <div
               key={index}
