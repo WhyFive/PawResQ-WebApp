@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { auth } from "../lib/auth";
-import { Heart, MapPin, Calendar, Image } from "lucide-react";
+import { Heart, MapPin, Calendar, Image, Dog } from "lucide-react";
 import { BottomNav } from "../components/BottomNav";
 import { Search } from 'lucide-react';
 
@@ -48,6 +48,13 @@ export function Dashboard() {
       path: "/media",
       color: "text-green-500",
       bgColor: "bg-green-50",
+    },
+    {
+      icon: Dog,
+      label: "Pet sitter",
+      path: "/pet-sitter",
+      color: "text-amber-500",
+      bgColor: "bg-amber-50",
     },
   ];
 

@@ -10,6 +10,7 @@ import { ServiceAppointment } from './pages/ServiceAppointment';
 import { MediaLibrary } from './pages/MediaLibrary';
 import { ChatPage } from './pages/ChatPage';
 import { ProfilePage } from './pages/ProfilePage';
+import { PetSitter } from './pages/PetSitter';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/media" element={<MediaLibrary />} />
         <Route path="/chat" element={<ChatPage />} />
         <Route path="/profile" element={<ProfilePage />} /> 
+        <Route path="/pet-sitter" element={<PetSitter/>}/>
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </Router>
